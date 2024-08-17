@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 7vh;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px auto;
+    box-sizing: border-box;
+    background-color: gainsboro;
+
+}
+ul{
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+ul>li{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    margin-left: 230px;
+}
+#a{
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+#about{
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    /* background-color: gainsboro; */
+}
+#contect{
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    /* background-color: gainsboro; */
+}
+.b{
+    height: 25vh;
+    width: 50%;
+    margin: 20px auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+/* .b:first-child */
+/* .b:first-of-type */
+/* .b:last-child */
+/* .b:last-of-type */
+/* .b:nth-child() */
+/* .b:nth-of-type() */
+.b>textarea{
+    border: none;
+}.a>p::first-letter{
+      font-size: 30px;
+}
+.b>textarea::first-line{
+    font-size: 30px;
+}
+/* :root affect on whole html  */
+/* :empty used to fill empty things or emement  */
+/* :not(any things) affect on all things. he affect on body  */
+/* body:not(any things) affect on all body element or things  */

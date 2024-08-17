@@ -1,0 +1,79 @@
+<html> open tag
+</html> closs tag
+in html two tag
+ 1
+<head>
+</head>
+2
+<body>
+</body>
+in html head used three tag
+1
+<title>
+</title>
+to used this tag write the name of webside
+2
+<link>
+</link>
+to add the other webside link
+3
+<script>
+</script>
+to add the other webside
+in body used many tag
+
+<h1 style="border:4px solid red;text-align: center;">my first day</h1>
+<h2>my first day</h2>
+<h3>my first day</h3>
+<h4>my first day</h4>
+<h5>my first day</h5>
+<h6>my first day</h6>
+
+
+
+
+
+<p>
+Vvork Cloud <mark> Technologies</mark> is dedicated to <strong> bridging </strong> the tech skills gap, <br> Our goal<s> is to not only to produce</s> career-ready <b> Software develope </b> but to train people to work effic
+</p>
+
+
+
+ul.... unorder list.
+used dot(.)
+ol.... order list
+used number(1,2)
+li...... list item... 
+
+<button> click me </button>
+
+
+The <div> tag defines a division or a section in an HTML document.
+margen mean to move other eliment
+In CSS, a margin is the space around an element's border
+
+
+
+css types
+1:Inline CSS.
+2:Internal/ Embedded CSS.
+3:External CSS.
+
+
+Animation types
+1:animation-name:slide;
+2:animation-duration:2s ;
+3:animation-delay: 1s;
+4:animation-timing-function:steps(4) ;ease;ease-in-out;ease-in;ease-out;linear;
+5:animation-iteration-count: infinite;
+6:animation-direction:alternate;alternate-reverse;reverse;
+7:animation-fill-mode:forwards ;backwards;
+8:animation-play-state: running;
+@ketframs slide{
+form{}
+to{}
+0%{}
+100%{}
+}
+
+

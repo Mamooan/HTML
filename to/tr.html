@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 10vh;
+            width: 10%;
+            border: 1px solid black;
+            position: relative;
+            background-color: blue;
+            color: white;
+            margin: 100px auto;
+        }
+        .a>h2{
+            margin-left: 45px;
+        }
+        .b{
+            height: 103%;
+            width: 102%;
+            position: relative;
+            background-color: yellow;
+            color: white;
+            margin-top: -69px;
+            margin-left: -1px;
+            transform: scaleX(0);
+            transition-duration: 1s;
+            padding-top: 1px;
+            box-sizing: border-box;
+        }
+        .a:hover .b{
+            transform: scaleX(1);
+        }
+        .b>h2{
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h2>Hi</h2>
+        <div class="b">
+        <h2>Hi</h2>
+        </div>
+    </div>
+</body>
+</html>
